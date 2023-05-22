@@ -2,11 +2,11 @@ package me.devolw;
 
 import lombok.Getter;
 public class Game {
-    @Getter private String name; //Сорт цветка
-    @Getter private String genre; //Основной цвет
-    @Getter private String platform; //Род
-    @Getter private float year;//Высота
-    @Getter private float price;//Цена
+    @Getter private String name;        //Название игры
+    @Getter private String genre;       //Жанр
+    @Getter private String platform;    //Платформа
+    @Getter private float year;         //Год
+    @Getter private float price;        //Цена
 
     public Game(String name, String genre, String platform, float year, float price) {
         this.name = name;
